@@ -107,8 +107,8 @@ ax.set_ylabel("CFU/mL")
 ax.legend(); ax.grid(True)
 st.pyplot(fig)
 
-# ─── 원시 데이터 테이블 ─────────────────────────────────────────────────────
-st.subheader("원시 데이터")
+# ─── 양식장 데이터 테이블 ─────────────────────────────────────────────────────
+st.subheader("양식장 데이터")
 mapping = {
     'region':'지역','farm_owner':'양식장 주','pond_type':'호지 종류',
     'pond_number':'호지 번호','sampling_date':'채수일',
